@@ -1,0 +1,51 @@
+@font-face {
+    font-family: custombarfont;
+    src: url(AvenirLTStd-Black.otf);
+}
+
+#title{
+    font-family: Garamond;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color:black;
+
+}
+
+div, img, #choicebar{
+    font-family: custombarfont;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+#choicebar > div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.btn-default{
+    background-color: #323232;
+    color:white;
+}
+
+.btn-default:hover{
+    background-color: grey;
+    color:white;
+}
+
+.img-responsive {
+    margin: 0 auto;
+    cursor: pointer;
+}
+

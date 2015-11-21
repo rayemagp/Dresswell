@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html  ng-app="thisApp">
+  <head>
+    <link rel='stylesheet' href='/stylesheets/bootstrap.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src='/javascripts/angular.js'></script>
+  </head>
+  <body ng-controller="thisAppController">
+        <div class="col-md-2"></div>
+        <div class="col-md-8" id="title">DRESSWELL</div>
+        <div class="col-md-1">popular</div>
+        <div class="col-md-1">history</div>
+        <div id="choicebar" class="col-md-12">
+            <div class="col-md-4 btn-default">match my wardrobe</div>
+            <div class="col-md-4 btn-danger">give me an outfit</div>
+            <div class="col-md-4 btn-default" >match my wardrobe</div>
+
+        </div>
+        <div class="col-md-12" id="consult">
+
+            <!-- UPLOADING-->
+            <img class="img-responsive" src="/images/noupload.png" onclick="this.src='/images/staticupload.png'">
+
+            <!-- MAIN FORM -->
+            <div class="form-group col-md-12">
+                <label class="control-label" for="inputGroupSuccess1"></label>
+                <div class="input-group">
+                    <span class="input-group-addon">Preferences</span>
+                    <input type="text" class="form-control" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status">
+                </div>
+
+                <label class="control-label" for="inputGroupSuccess2"></label>
+                <div class="input-group">
+                    <span class="input-group-addon">Other Details</span>
+                    <input type="text" class="form-control" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess1Status">
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+  </body>
+</html>
