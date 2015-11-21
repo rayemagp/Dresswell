@@ -13,9 +13,9 @@
         <div class="col-md-1">popular</div>
         <div class="col-md-1">history</div>
         <div id="choicebar" class="col-md-12">
-            <div class="col-md-4 btn-default" ng-click="show = ! show;">match my wardrobe</div>
-            <div class="col-md-4 btn-danger" ng-click="show = ! show;">give me an outfit</div>
-            <div class="col-md-4 btn-default" ng-click="show = ! show;">general advice</div>
+            <div class="col-md-4 btn-default" ng-click="show = ! show; generate = false;">match my wardrobe</div>
+            <div class="col-md-4 btn-danger" ng-click="show = ! show; generate = false;">give me an outfit</div>
+            <div class="col-md-4 btn-default" ng-click="show = ! show; generate = false;">general advice</div>
         </div>
         <div class="col-md-12" id="consult" ng-show="show">
 
@@ -31,15 +31,20 @@
 
         </div>
         <div class="col-md-12" id="generate" ng-show="generate">
-            <table ng-repeat="outfit in recommendations[0]">
-                <tr ng-repeat="item in outfit">
-                    <td>{{item.brand}}</td>
-                    <td>{{item.name}}</td>
-                    <td>{{item.price}}</td>
-                    <td>{{item.link}}</td>
-                    <td><img ng-srcset="{{item.photo}}"></td>
-                </tr>
-            </table>
+
+            <div ng-repeat="outfit in recommendations[0]">
+                <div ng-repeat="item in outfit">
+                    <a ng-href="{{item.link}}">
+                    <img ng-srcset="{{item.photo}}" >
+                        <div>
+                            <td>{{item.brand}}</td>
+                            <td>{{item.name}}</td>
+                            <td>{{item.price}}</td>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
         </div>
   </body>
 </html>
