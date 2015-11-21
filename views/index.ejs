@@ -5,6 +5,7 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <script src='/javascripts/angular.js'></script>
     <script src='/javascripts/module.js'></script>
+    <script src='/javascripts/recommend.js'></script>
   </head>
   <body ng-controller="thisController">
         <div class="col-md-2"></div>
@@ -29,8 +30,16 @@
                 <submit class="btn-success col-md-12" ng-click="generate = !generate;" >Match my Outfit!</submit>
 
         </div>
-        <div class="col-md-12" id="consult" ng-show="generate">
-
+        <div class="col-md-12" id="generate" ng-show="generate">
+            <table ng-repeat="outfit in recommendations[0]">
+                <tr ng-repeat="item in outfit">
+                    <td>{{item.brand}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.price}}</td>
+                    <td>{{item.link}}</td>
+                    <td><img ng-srcset="{{item.photo}}"></td>
+                </tr>
+            </table>
         </div>
   </body>
 </html>
