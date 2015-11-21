@@ -83,3 +83,18 @@ a {
     padding: 2px;
     text-align: center;
 }
+
+#spin{
+    padding:20px;
+    font-size: 16px;
+    margin:0 auto;
+    text-align: center;
+}
+
+#vote{
+
+    padding-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}

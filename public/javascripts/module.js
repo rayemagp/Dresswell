@@ -5,8 +5,19 @@ app.controller('thisController', [
     function($scope, $http) {
 
         $scope.show = true;
+        $scope.loads = false;
         $scope.generate = false;
 
+        $scope.submit = "Give Me an Outfit!";
+
+        $scope.loadNow = function(){
+            $scope.loads = true;
+            setTimeout(function(){
+                console.log("done");
+                $scope.loads = false;
+                $scope.generate = true;
+            },1000);
+        };
 
         $scope.recommendations = [{
             "Outfit1":{
