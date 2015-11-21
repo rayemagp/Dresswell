@@ -3,9 +3,10 @@
   <head>
     <link rel='stylesheet' href='/stylesheets/bootstrap.css' />
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src='/javascripts/jquery.js'></script>
     <script src='/javascripts/angular.js'></script>
-    <script src='/javascripts/module.js'></script>
-    <script src='/javascripts/recommend.js'></script>
+          <script src='/javascripts/module.js'></script>
+
   </head>
   <body ng-controller="thisController">
         <div class="col-xs-2"></div>
@@ -13,7 +14,7 @@
         <div class="col-xs-1">popular</div>
         <div class="col-xs-1">history</div>
         <div id="choicebar" class="col-xs-12">
-            <div class="col-xs-4 btn-default" ng-click="btnhighlight(this);">match my wardrobe</div>
+            <div class="col-xs-4 btn-default" ng-click="show = true;generate = false;;">match my wardrobe</div>
             <div class="col-xs-4 btn-danger" ng-click="show = true;generate = false;">give me an outfit</div>
             <div class="col-xs-4 btn-default" ng-click="show = true;generate = false;">general advice</div>
         </div>

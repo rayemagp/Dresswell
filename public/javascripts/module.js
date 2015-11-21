@@ -8,13 +8,6 @@ app.controller('thisController', [
         $scope.generate = false;
 
 
-        $scope.btnhighlight = function(target){
-            $scope.show = true;
-            $scope.generate = false;
-            target.parent.style.backgroundColor="#323232";
-            target.style.backgroundColor = "#e51c23";
-        }
-
         $scope.recommendations = [{
             "Outfit1":{
 
