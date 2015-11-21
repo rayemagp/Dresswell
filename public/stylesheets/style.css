@@ -8,7 +8,7 @@
     font-weight: 600;
     font-size: 30px;
     text-align: center;
-    color:black;
+    color: black;
 
 }
 
@@ -61,7 +61,25 @@ a {
     font-size: 16px;
 }
 
+#generate{
+    margin: 0;
+    padding: 0;
+}
+
 #generate img{
     height:200px;
     width:auto;
+    margin: 0 auto;
+}
+
+#generate a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.clothingitem{
+    background: #e51c23;
+    color: white;
+    padding: 2px;
+    text-align: center;
 }
