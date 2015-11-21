@@ -8,43 +8,37 @@
     <script src='/javascripts/recommend.js'></script>
   </head>
   <body ng-controller="thisController">
-        <div class="col-md-2"></div>
-        <div class="col-md-8" id="title">DRESSWELL</div>
-        <div class="col-md-1">popular</div>
-        <div class="col-md-1">history</div>
-        <div id="choicebar" class="col-md-12">
-            <div class="col-md-4 btn-default" ng-click="show = ! show; generate = false;">match my wardrobe</div>
-            <div class="col-md-4 btn-danger" ng-click="show = ! show; generate = false;">give me an outfit</div>
-            <div class="col-md-4 btn-default" ng-click="show = ! show; generate = false;">general advice</div>
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8" id="title">DRESSWELL</div>
+        <div class="col-xs-1">popular</div>
+        <div class="col-xs-1">history</div>
+        <div id="choicebar" class="col-xs-12">
+            <div class="col-xs-4 btn-default" ng-click="show = ! show;">match my wardrobe</div>
+            <div class="col-xs-4 btn-danger" ng-click="show = ! show;">give me an outfit</div>
+            <div class="col-xs-4 btn-default" ng-click="show = ! show;">general advice</div>
         </div>
-        <div class="col-md-12" id="consult" ng-show="show">
+        <div class="col-xs-12" id="consult" ng-show="show">
 
             <!-- UPLOADING-->
             <img class="img-responsive" src="/images/noupload.png" onclick="this.src='/images/staticupload.png'">
 
             <!-- MAIN FORM -->
-            <div class="form-group col-md-12">
-                <input type="text" class="col-md-11 form-control " id="inputGroupSuccess1" placeholder="Preferences">
-                <textarea type="text" class="col-md-11 form-control " id="inputGroupSuccess2" placeholder="Other Details"></textarea>
+            <div class="form-group col-xs-12">
+                <input type="text" class="col-xs-11 form-control " id="inputGroupSuccess1" placeholder="Preferences">
+                <textarea type="text" class="col-xs-11 form-control " id="inputGroupSuccess2" placeholder="Other Details"></textarea>
             </div>
-                <submit class="btn-success col-md-12" ng-click="generate = !generate;" >Match my Outfit!</submit>
+                <submit class="btn-success col-xs-12" ng-click="generate = !generate;" >Match my Outfit!</submit>
 
         </div>
-        <div class="col-md-12" id="generate" ng-show="generate">
-
+        <div class="col-xs-12" id="generate" ng-show="generate">
             <div ng-repeat="outfit in recommendations[0]">
                 <div ng-repeat="item in outfit">
                     <a ng-href="{{item.link}}">
-                    <img ng-srcset="{{item.photo}}" >
-                        <div>
-                            <td>{{item.brand}}</td>
-                            <td>{{item.name}}</td>
-                            <td>{{item.price}}</td>
-                        </div>
+                    <img ng-srcset="{{item.photo}}">
+                   s
                     </a>
-                </div>
+                </div >
             </div>
-
         </div>
   </body>
 </html>
