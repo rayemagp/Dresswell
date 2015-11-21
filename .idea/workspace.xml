@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="784b638f-6686-4baf-a0ea-1119a3cc0650" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/.jscsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/AUTHORS.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/Data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Dresswell_node_modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/_evalUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/accepts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/addGetHookIf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/exports/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects/animatedSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/arr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/class2type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/cssExpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/curCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/data_priv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/var/data_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/defaultDisplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/queue/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/sizzle/test/data/empty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/sizzle/test/unit/extending.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/findFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/exports/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/hasOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/sizzle/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/isHidden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/sizzle/test/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/jsonp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/sizzle/test/data/mixed_sort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/nonce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/parseHTML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/parseJSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/parseXML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/pnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rmargin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/rnotwhite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rnumnonpx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/rquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/var/rsingleTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector-sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/sizzle/test/unit/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/strundefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/swap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/sizzle/test/data/testinit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/var/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/sizzle/test/unit/utilities.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/val.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/ajax/xhr.js" />
+    </list>
+    <ignored path="Dresswell.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Dresswell" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.69863015">
+              <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.1034484">
+              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/public/javascripts/module.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/recommend.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dresswell" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\X240\Documents\Node_Tutes\Dresswell\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\X240\Documents\Node_Tutes\Dresswell\public\stylesheets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.bin\www">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
+      <setting name="path" value="" />
+      <setting name="shellParams" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.bin\www" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="784b638f-6686-4baf-a0ea-1119a3cc0650" name="Default" comment="" />
+      <created>1448104136890</created>
+      <option name="number" value="Default" />
+      <updated>1448104136890</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Interface Changes (Added Form and Submit)">
+      <created>1448109784136</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1448109784136</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Interface Changes (Added Form and Submit)">
+      <created>1448110662398</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1448110662398</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Interface Changes (Faked Generated Outfits)">
+      <created>1448113135449</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1448113135449</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13086233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Interface Changes (Added Form and Submit)" />
+    <MESSAGE value="Interface Changes (Faked Generated Outfits)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interface Changes (Faked Generated Outfits)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1034484">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69863015">
+          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
