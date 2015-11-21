@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html  ng-app="thisApp">
+<html ng-app="thisApp">
   <head>
     <link rel='stylesheet' href='/stylesheets/bootstrap.css' />
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <script src='/javascripts/angular.js'></script>
     <script src='/javascripts/module.js'></script>
   </head>
-  <body>
+  <body ng-controller="thisController">
         <div class="col-md-2"></div>
         <div class="col-md-8" id="title">DRESSWELL</div>
         <div class="col-md-1">popular</div>
         <div class="col-md-1">history</div>
         <div id="choicebar" class="col-md-12">
-            <div class="col-md-4 btn-default" ngclick="show = ! show;">match my wardrobe</div>
-            <div class="col-md-4 btn-danger" ngclick="show = ! show;">give me an outfit</div>
-            <div class="col-md-4 btn-default" ngclick="show = ! show;">match my wardrobe</div>
-
+            <div class="col-md-4 btn-default" ng-click="show = ! show;">match my wardrobe</div>
+            <div class="col-md-4 btn-danger" ng-click="show = ! show;">give me an outfit</div>
+            <div class="col-md-4 btn-default" ng-click="show = ! show;">match my wardrobe</div>
         </div>
         <div class="col-md-12" id="consult" ng-show="show">
 
@@ -27,7 +26,10 @@
                 <input type="text" class="col-md-11 form-control " id="inputGroupSuccess1" placeholder="Preferences">
                 <textarea type="text" class="col-md-11 form-control " id="inputGroupSuccess2" placeholder="Other Details"></textarea>
             </div>
-                <submit class="btn-success col-md-12" >Match my Outfit!</submit>
+                <submit class="btn-success col-md-12" ng-click="generate = !generate;" >Match my Outfit!</submit>
+
+        </div>
+        <div class="col-md-12" id="consult" ng-show="generate">
 
         </div>
   </body>
