@@ -4,9 +4,13 @@
     <link rel='stylesheet' href='/stylesheets/bootstrap.css' />
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/upload.css">
+
     <script src='/javascripts/jquery.js'></script>
     <script src='/javascripts/angular.js'></script>
     <script src='/javascripts/module.js'></script>
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src='/javascripts/upload.js'></script>
 
   </head>
   <body ng-controller="thisController">
@@ -21,8 +25,20 @@
         </div>
         <div class="col-xs-12" id="consult" ng-show="show">
 
-            <!-- UPLOADING-->
-            <img class="img-responsive" src="/images/noupload.png" onclick="this.src='/images/staticupload.png'">
+            <div class="file-upload">
+                <div class="image-upload-wrap">
+                    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                    <div class="drag-text">
+                        <h3>Drag and drop a file or select add Image</h3>
+                    </div>
+                </div>
+                <div class="file-upload-content">
+                    <img class="file-upload-image" src="#" alt="your image" />
+                    <div class="image-title-wrap">
+                        <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
+                    </div>
+                </div>
+            </div>
 
             <!-- MAIN FORM -->
             <div class="form-group col-xs-12">
@@ -43,7 +59,7 @@
 
         </div>
 
-        <div class="col-xs-12" id="generate" ng-show="generate">
+        <div class="col-xs-12" id="generate" >
 
             <div class="col-xs-12">
                 <div class="col-xs-5"></div>

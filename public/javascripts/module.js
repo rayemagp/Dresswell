@@ -13,7 +13,7 @@ app.controller('thisController', [
         $scope.loadNow = function(){
             $scope.loads = true;
             setTimeout(function(){
-                console.log("done");
+                console.log($scope.loads);
                 $scope.loads = false;
                 $scope.generate = true;
             },1000);
