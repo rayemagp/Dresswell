@@ -19,6 +19,15 @@
         <div class="col-xs-8" id="title">DRESSWELL</div>
         <div class="col-xs-1"></div>
         <div class="col-xs-1"></div>
+
+        <div id="banner" class="col-xs-12" style="margin:0;padding:0;" ng-style="bannerback[number]">
+            <div class="col-md-9"></div>
+            <div class="col-md-3">
+                <i class="{{thumb}}"></i>
+                <p>Get Fashion Advice Quickly</p>
+            </div>
+        </div>
+
         <div id="choicebar" class="col-xs-12">
             <div class="col-xs-4 btn-default" ng-click="show = true;generate = false;submit='Match my Wardrobe!';">match my wardrobe</div>
             <div class="col-xs-4 btn-danger" ng-click="show = true;generate = false;submit='Check my Outfit!';">check my outfit</div>

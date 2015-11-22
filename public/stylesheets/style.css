@@ -25,6 +25,21 @@ html{
     background: white;
 }
 
+#banner{
+    height: 200px;
+    text-align: left;
+    color:black;
+}
+
+#banner > div > i{
+    padding-top: 90px;
+}
+
+#banner{
+    font-size: 20px;
+    text-align: center;
+}
+
 #choicebar > div{
   padding-top: 10px;
   padding-bottom: 10px;

@@ -10,6 +10,25 @@ app.controller('thisController', [
         $scope.vote=true;
         $scope.chat=false;
 
+        $scope.thumb = "fa fa-thumbs-up fa-5x";
+        $scope.bannerback = [{'background':'url(http://p2pmailing.co.uk/wp-content/uploads/2013/10/Fashion-And-Modern-Youth.jpg)'},{'background':'no-repeat center url(http://oregonbookreport.com/wp-content/uploads/2011/12/bad-fashion-horrors-2011-a.jpg)'}];
+        $scope.number = 0;
+
+        window.setInterval(function(){
+
+            $scope.$apply(function()
+            {
+
+            if ($scope.thumb == "fa fa-thumbs-up fa-5x"){
+                $scope.thumb = "fa fa-thumbs-down fa-5x";
+                $scope.number = 1;
+            }else{
+                $scope.thumb = "fa fa-thumbs-up fa-5x";
+                $scope.number = 0;
+            }});
+
+        }, 2000);
+
         $scope.submit = "Check my Outfit!";
 
         $scope.sendPost = function(email) {
