@@ -61,20 +61,16 @@
         <div class="col-xs-12" id="generate" ng-show="generate">
 
             <div class="col-xs-12">
-                <div class="col-xs-5"></div>
-                <div id="vote" class="col-xs-2" ng-show="vote">
+                <div id="voteup" class="col-xs-12" ng-show="vote">
                     <i class="fa fa-thumbs-up fa-2x" ></i>
-                    YES!
                 </div>
-                <div id="vote" class="col-xs-2" ng-show="!(vote)">
+                <div id="votedown" class="col-xs-12" ng-show="!(vote)">
                     <i class="fa fa-thumbs-down fa-2x" ></i>
-                    NO!
                 </div>
-                <div class="col-xs-5"></div>
                 <div class="col-xs-12" style="text-align:center; color:black;">Some other items to match you..</div>
             </div>
             <div ng-repeat="outfit in recommendations[0]">
-                <div class="entry col-xs-3" ng-repeat="item in outfit">
+                <div class="entry col-md-3" ng-repeat="item in outfit">
                     <a ng-href="{{item.link}}">
                     <img class="img-responsive" ng-srcset="{{item.photo}}">
                         <div class="clothingitem">

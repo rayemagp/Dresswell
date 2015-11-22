@@ -101,7 +101,7 @@ a {
     text-align: center;
 }
 
-#vote{
+#voteup, #votedown{
     padding-top: 10px;
     font-size: 50px;
     text-align: center;
