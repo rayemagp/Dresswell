@@ -21,7 +21,7 @@
         <div class="col-xs-1"></div>
         <div id="choicebar" class="col-xs-12">
             <div class="col-xs-4 btn-default" ng-click="show = true;generate = false;submit='Match my Wardrobe!';">match my wardrobe</div>
-            <div class="col-xs-4 btn-danger" ng-click="show = true;generate = false;submit='Give Me an Outfit!';">give me an outfit</div>
+            <div class="col-xs-4 btn-danger" ng-click="show = true;generate = false;submit='Check my Outfit!';">check my outfit</div>
             <div class="col-xs-4 btn-default" ng-click="show = true;generate = false;submit='Give me General Advice!';">general advice</div>
         </div>
         <div class="col-xs-12" id="consult" ng-show="show">
@@ -51,7 +51,7 @@
         <div id="spin" class="col-xs-12" ng-show="loads">
 
             <div class="col-xs-12">
-            <i class="fa fa-circle-o-notch fa-spin fa-2x"></i>
+            <i class="fa fa-circle-o-notch fa-spin fa-5x"></i>
             </div>
             <div class="col-xs-12">Please Wait
             </div>
@@ -63,18 +63,18 @@
             <div class="col-xs-12">
                 <div class="col-xs-5"></div>
                 <div id="vote" class="col-xs-2" ng-show="vote">
-                    <i class="fa fa-thumbs-up fa-5x" ></i>
+                    <i class="fa fa-thumbs-up fa-2x" ></i>
                     YES!
                 </div>
                 <div id="vote" class="col-xs-2" ng-show="!(vote)">
-                    <i class="fa fa-thumbs-down fa-5x" ></i>
+                    <i class="fa fa-thumbs-down fa-2x" ></i>
                     NO!
                 </div>
                 <div class="col-xs-5"></div>
                 <div class="col-xs-12" style="text-align:center; color:black;">Some other items to match you..</div>
             </div>
             <div ng-repeat="outfit in recommendations[0]">
-                <div class="col-md-3" ng-repeat="item in outfit">
+                <div class="entry col-xs-3" ng-repeat="item in outfit">
                     <a ng-href="{{item.link}}">
                     <img class="img-responsive" ng-srcset="{{item.photo}}">
                         <div class="clothingitem">
@@ -87,18 +87,26 @@
         </div>
 
         <div id="footerfake" class="col-xs-12"></div>
-        <div id="footer" class="col-xs-12 form-inline">
-            <div class="col-xs-2"></div>
-            <div class="col-xs-8 form-group">
+        <div class="col-xs-2 form-inline">
+        <div id="footer" class="col-xs-3 form-inline">
+            <div class="col-xs-12 form-group">
 
                 <span class="col-xs-12">
-                Dress better, forever. Go PRO and browse through popular styles, your advice history and detailed advice from top fashion experts.
+                Want more detailed advice? One-on-one full wardrobe consultation for $10.
                 </span>
 
-                <input type="text" class="col-xs-8" id="signup" placeholder="Email">
-                <submit class="btn-danger col-xs-4">Sign Up</submit>
+                <div class="col-xs-12" style="text-align: center;">
+                    <div style="height:10px;"></div>
+                    <div>
+                        <img src="https://s-media-cache-ak0.pinimg.com/236x/6d/2e/58/6d2e58d823f885a5a65b480804ec8778.jpg" class="img-circle" height=100 width=100>
+                        David <i class="fa fa-star" ng-repeat="i in [1,2,3,4]"></i>
+                        <p style="font-size:10px;margin:0px;">See Profile</p><p style="font-size:10px;margin:0px;">See Another</p>
+                    </div>
+                </div>
+
+                <input type="text" class="col-xs-8" id="signup" placeholder="Message" style="color:black;">
+                <submit class="btn-danger col-xs-4">Email</submit>
             </div>
-            <div class="col-xs-2"></div>
         </div>
 
   </body>
