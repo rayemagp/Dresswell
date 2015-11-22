@@ -10,7 +10,7 @@ app.controller('thisController', [
         $scope.vote=true;
         $scope.chat=false;
 
-        $scope.submit = "Give Me an Outfit!";
+        $scope.submit = "Check my Outfit!";
 
         $scope.sendPost = function(email) {
             $http.post("http://api.webhookinbox.com/i/3flaK49c/in/", email).success(function(data, status) {
@@ -30,7 +30,16 @@ app.controller('thisController', [
                 });
             }, 1000);
             $location.hash('consult');
+            setTimeout(function ()
+            {
+                $scope.$apply(function()
+                {
+                    $scope.chat=true;
+                });
+            }, 2500);
         };
+
+
 
         $scope.recommendations = [{
             "Outfit1":{
