@@ -8,8 +8,14 @@ app.controller('thisController', [
         $scope.loads = false;
         $scope.generate = false;
         $scope.vote=true;
+        $scope.chat=false;
 
         $scope.submit = "Give Me an Outfit!";
+
+        $scope.sendPost = function(email) {
+            $http.post("http://api.webhookinbox.com/i/3flaK49c/in/", email).success(function(data, status) {
+            })
+        };
 
         $scope.loadNow = function(){
             $scope.loads = true;

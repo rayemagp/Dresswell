@@ -44,7 +44,7 @@
             <!-- MAIN FORM -->
             <div id="consultform" class="form-group col-xs-12">
                 <textarea type="text" class="col-xs-12 form-control " id="inputGroupSuccess2" placeholder="Tell us more..."></textarea>
-                <submit class="file-upload-btn col-xs-10" ng-click="loadNow();">{{submit}}</submit>
+                <submit class="file-upload-btn col-xs-10" ng-click="chat=true;loadNow();">{{submit}}</submit>
             </div>
         </div>
 
@@ -87,25 +87,34 @@
         </div>
 
         <div id="footerfake" class="col-xs-12"></div>
-        <div class="col-xs-2 form-inline">
-        <div id="footer" class="col-xs-3 form-inline">
-            <div class="col-xs-12 form-group">
+        <div id="footer" class="col-md-3 form-inline">
+            <div class="col-xs-12" id="changeview" ng-click="chat=!(chat)"> <span style="width:60px"> More Advice <i ng-if="chat" class="fa fa-minus"></i> <i ng-if="!(chat)" class="fa fa-plus"></i> </div>
+            <div id="mainbox" class="col-xs-12 form-group" ng-show="chat">
 
                 <span class="col-xs-12">
                 Want more detailed advice? One-on-one full wardrobe consultation for $10.
                 </span>
 
                 <div class="col-xs-12" style="text-align: center;">
-                    <div style="height:10px;"></div>
-                    <div>
+                    <div class="col-xs-12" style="height:10px;"></div>
+
+                    <div class="col-xs-6" style="padding:0">
                         <img src="https://s-media-cache-ak0.pinimg.com/236x/6d/2e/58/6d2e58d823f885a5a65b480804ec8778.jpg" class="img-circle" height=100 width=100>
-                        David <i class="fa fa-star" ng-repeat="i in [1,2,3,4]"></i>
-                        <p style="font-size:10px;margin:0px;">See Profile</p><p style="font-size:10px;margin:0px;">See Another</p>
+                        <p style="margin:0px;">David <br><i class="fa fa-star fa-1x" ng-repeat="i in [1,2,3,4]"></i></p>
+                        <p style="font-size:12px;margin:0px;">See Profile</p><p style="font-size:12px;margin:0px;">See Another</p>
                     </div>
+
+                    <div class="col-xs-6" style="padding:0">
+                        <img src="http://thumbnail.image.rakuten.co.jp/@0_mall/protocol/cabinet/morizawa5/kps201274-nm1.jpg?_ex=128x128" class="img-circle" height=100 width=100>
+                        <p style="margin:0px;">Stacey <br><i class="fa fa-star fa-1x" ng-repeat="i in [1,2,3,4]"></i></p>
+                        <p style="font-size:12px;margin:0px;">See Profile</p><p style="font-size:12px;margin:0px;">See Another</p>
+                    </div>
+
+                    <div class="col-xs-12" style="height:10px;"></div>
                 </div>
 
-                <input type="text" class="col-xs-8" id="signup" placeholder="Message" style="color:black;">
-                <submit class="btn-danger col-xs-4">Email</submit>
+                <input type="text" ng-model="signup" class="col-xs-8" id="signup" placeholder="Message" style="color:black;">
+                <submit ng-click="sendPost(signup);" class="btn-danger col-xs-4">Email</submit>
             </div>
         </div>
 
