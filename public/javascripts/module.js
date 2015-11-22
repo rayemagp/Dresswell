@@ -1,22 +1,29 @@
 var app = angular.module('thisApp', []);
 
 app.controller('thisController', [
-    '$scope', '$http',
-    function($scope, $http) {
+    '$scope', '$http','$anchorScroll','$location',
+    function($scope, $http, $anchorScroll, $location) {
 
         $scope.show = true;
         $scope.loads = false;
         $scope.generate = false;
+        $scope.vote=true;
 
         $scope.submit = "Give Me an Outfit!";
 
         $scope.loadNow = function(){
             $scope.loads = true;
-            setTimeout(function(){
-                console.log($scope.loads);
-                $scope.loads = false;
-                $scope.generate = true;
-            },1000);
+            setTimeout(function ()
+            {
+                $scope.$apply(function()
+                {
+                    $scope.loads = false;
+                    $scope.generate = true;
+                    $location.hash('generate');
+                    $anchorScroll();
+                    $location.hash('consult');
+                });
+            }, 1000);
         };
 
         $scope.recommendations = [{

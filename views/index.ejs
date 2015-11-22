@@ -2,15 +2,16 @@
 <html ng-app="thisApp">
   <head>
     <link rel='stylesheet' href='/stylesheets/bootstrap.css' />
-    <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/stylesheets/upload.css">
+    <link rel='stylesheet' href='/stylesheets/style.css' >
 
     <script src='/javascripts/jquery.js'></script>
     <script src='/javascripts/angular.js'></script>
     <script src='/javascripts/module.js'></script>
     <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src='/javascripts/upload.js'></script>
+
 
   </head>
   <body ng-controller="thisController">
@@ -29,7 +30,7 @@
                 <div class="image-upload-wrap">
                     <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
                     <div class="drag-text">
-                        <h3>Drag and drop a file or select add Image</h3>
+                        <h3>Click or Drag to Upload Image</h3>
                     </div>
                 </div>
                 <div class="file-upload-content">
@@ -59,17 +60,21 @@
 
         </div>
 
-        <div class="col-xs-12" id="generate" >
+        <div class="col-xs-12" id="generate" ng-show="generate">
 
             <div class="col-xs-12">
                 <div class="col-xs-5"></div>
-                <div id="vote" class="col-xs-2">
-                    <i class="fa fa-thumbs-up fa-5x"></i>
-                    YES
+                <div id="vote" class="col-xs-2" ng-show="vote">
+                    <i class="fa fa-thumbs-up fa-5x" ></i>
+                    YES!
+                </div>
+                <div id="vote" class="col-xs-2" ng-show="!(vote)">
+                    <i class="fa fa-thumbs-down fa-5x" ></i>
+                    NO!
                 </div>
                 <div class="col-xs-5"></div>
+                <div class="col-xs-12" style="text-align:center; color:black;">Some other items to match you..</div>
             </div>
-
             <div ng-repeat="outfit in recommendations[0]">
                 <div class="col-md-3" ng-repeat="item in outfit">
                     <a ng-href="{{item.link}}">
