@@ -25,17 +25,18 @@ html{
     background: white;
 }
 
-#choicebar > div {
+#choicebar > div{
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
+  text-decoration: none;
 }
 
 a {
   color: #00B7FF;
 }
 
-.btn-default{
+.btn-default,  #footer{
     background-color: #323232;
     color:white;
 }
@@ -55,11 +56,12 @@ a {
     padding: 0;
 }
 
-#consult > submit{
-    text-align: center;
-    padding-top:10px;
-    padding-bottom: 10px;
-    font-size: 16px;
+#consultform > submit{
+    margin-top: 10px;
+}
+
+#consultform{
+    text-align:center;
 }
 
 #generate{
@@ -101,4 +103,28 @@ a {
     font-size: 50px;
     text-align: center;
     color: black;
+}
+
+#footerfake{
+    height:120px;
+}
+
+#footer
+{
+    padding: 10px 0;
+    position:fixed;
+    bottom: 0;
+}
+
+#footer  span{
+    padding:0;
+}
+#footer input,#footer submit{
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+}
+#footer input{
+    padding-left: 10px;
+    text-align: left;
 }

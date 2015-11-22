@@ -21,9 +21,9 @@ app.controller('thisController', [
                     $scope.generate = true;
                     $location.hash('generate');
                     $anchorScroll();
-                    $location.hash('consult');
                 });
             }, 1000);
+            $location.hash('consult');
         };
 
         $scope.recommendations = [{
