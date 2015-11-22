@@ -2,25 +2,12 @@ var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
-var cors = require('cors');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
-
-var app = express(), cors = require('cors')
-    , app = express();
-
-app.use(cors());
-
-app.get('/products/:id', function(req, res, next){
-    res.json({msg: 'This is CORS-enabled for all origins!'});
-});
-
-app.listen(80, function(){
-    console.log('CORS-enabled web server listening on port 80');
-});;
+var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
